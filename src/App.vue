@@ -52,6 +52,7 @@
   <!-- estructura-->
   <h1>Hola {{ name.toLocaleUpperCase() }}</h1>
   <h2 :style="styleColor">Mi color favorito</h2>
+  <h2>Modifique el archivo</h2>
   <h2> {{ arrayColors }}</h2>
   <h2 :style="'color: ${arrayColors[1]}'"></h2>
   <h2>{{ activo ? "Estoy activo" : "Estoy inactivo" }}</h2>
